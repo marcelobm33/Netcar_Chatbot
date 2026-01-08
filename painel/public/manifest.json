@@ -1,0 +1,44 @@
+{
+  "name": "Netcar CRM",
+  "short_name": "Netcar",
+  "description": "CRM Inteligente para Revendas de Veículos",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#22c55e",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo-netcar.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo-netcar.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "pt-BR",
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "url": "/dashboard",
+      "description": "Ver métricas e indicadores"
+    },
+    {
+      "name": "Pipeline",
+      "url": "/pipeline",
+      "description": "Kanban de leads"
+    },
+    {
+      "name": "Inbox",
+      "url": "/chat",
+      "description": "Conversas recentes"
+    }
+  ]
+}

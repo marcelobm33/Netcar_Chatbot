@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sem Conexão - Netcar CRM</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        color: #333;
+        text-align: center;
+        padding: 20px;
+      }
+      .icon {
+        font-size: 64px;
+        margin-bottom: 20px;
+      }
+      h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #1a1a1a;
+      }
+      p {
+        font-size: 16px;
+        color: #666;
+        max-width: 300px;
+        margin-bottom: 30px;
+      }
+      button {
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        background: #22c55e;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+      button:hover {
+        background: #16a34a;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="icon">📡</div>
+    <h1>Sem Conexão</h1>
+    <p>
+      Verifique sua internet e tente novamente. O sistema precisa de conexão
+      para sincronizar os dados.
+    </p>
+    <button onclick="location.reload()">Tentar Novamente</button>
+  </body>
+</html>
